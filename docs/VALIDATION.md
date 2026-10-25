@@ -37,3 +37,8 @@ was validated with fault injection and malformed citation fixtures.
 `docker build -t citewise:portfolio .` — passed.
 `python scripts/container_smoke.py` — passed: non-root server, document ingestion/query,
 and named-volume document persistence after a fresh container starts. See `reports/container.json`.
+
+## Hosted CI
+
+[Initial GitHub Actions run](https://github.com/MSaiedd/citewise/actions/runs/40206860979) — passed:
+Python 3.11 tests/lint, Python 3.12 tests/lint, and Chromium browser validation.
