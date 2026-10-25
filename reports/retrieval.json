@@ -1,0 +1,92 @@
+{
+  "dataset": "original synthetic five-document fixture",
+  "positive_queries": 10,
+  "negative_queries": 3,
+  "recall_at_1": 1.0,
+  "recall_at_4": 1.0,
+  "mrr_at_4": 1.0,
+  "unsupported_abstention_rate": 1.0,
+  "outcomes": [
+    {
+      "question": "How long do refunds take?",
+      "title": "Returns",
+      "retrieved": [
+        "Returns"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "What packaging is required for returns?",
+      "title": "Returns",
+      "retrieved": [
+        "Returns"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "How fast is express shipping?",
+      "title": "Delivery",
+      "retrieved": [
+        "Delivery"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "Where is the parcel tracking link?",
+      "title": "Delivery",
+      "retrieved": [
+        "Delivery"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "How can I reset my password?",
+      "title": "Account security",
+      "retrieved": [
+        "Account security"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "Should I share verification codes?",
+      "title": "Account security",
+      "retrieved": [
+        "Account security"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "Where can I download payment receipts?",
+      "title": "Billing",
+      "retrieved": [
+        "Billing"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "How do duplicate charges get reviewed?",
+      "title": "Billing",
+      "retrieved": [
+        "Billing"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "What are the API rate limits?",
+      "title": "Developer API",
+      "retrieved": [
+        "Developer API"
+      ],
+      "rank": 1
+    },
+    {
+      "question": "What header accompanies status 429?",
+      "title": "Developer API",
+      "retrieved": [
+        "Developer API"
+      ],
+      "rank": 1
+    }
+  ],
+  "limitation": "Small synthetic fixture, not evidence of real-world retrieval or answer quality."
+}

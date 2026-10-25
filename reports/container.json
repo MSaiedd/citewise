@@ -1,0 +1,7 @@
+{
+  "project": "citewise",
+  "result": "passed",
+  "image_id": "sha256:e5f52c367dd02c3d0ac0974f60f4be80cd5f622727c79aac00d2f9c20a0c9316",
+  "non_root": true,
+  "checks": "isolated container startup and API flow; named-volume persistence; refund approval for SupportPilot; baseline training/inference for LoRA project"
+}

@@ -1,0 +1,23 @@
+{
+  "provenance": "Original synthetic policies and hand-authored questions; pipeline fixture only.",
+  "documents": [
+    {"title": "Returns", "text": "Returns are accepted within 30 days of delivery. Items must be unused and in original packaging. Refunds take five business days after inspection."},
+    {"title": "Delivery", "text": "Standard shipping takes three to seven business days. Express shipping takes one to two business days. Change a delivery address before dispatch by contacting support. Track parcels using the tracking link in the dispatch email."},
+    {"title": "Account security", "text": "Reset your password using the account recovery page. Never share verification codes. Revoke active sessions immediately if your account is compromised. Enable two-factor authentication in security settings."},
+    {"title": "Billing", "text": "Download invoices and payment receipts from the billing dashboard. Duplicate charges require a payment review by support. Update your company tax number before requesting a revised invoice."},
+    {"title": "Developer API", "text": "API requests require a bearer token. Rate limits are 100 requests per minute per workspace. Responses with status 429 include a Retry-After header. Rotate API tokens in developer settings."}
+  ],
+  "questions": [
+    {"question": "How long do refunds take?", "title": "Returns"},
+    {"question": "What packaging is required for returns?", "title": "Returns"},
+    {"question": "How fast is express shipping?", "title": "Delivery"},
+    {"question": "Where is the parcel tracking link?", "title": "Delivery"},
+    {"question": "How can I reset my password?", "title": "Account security"},
+    {"question": "Should I share verification codes?", "title": "Account security"},
+    {"question": "Where can I download payment receipts?", "title": "Billing"},
+    {"question": "How do duplicate charges get reviewed?", "title": "Billing"},
+    {"question": "What are the API rate limits?", "title": "Developer API"},
+    {"question": "What header accompanies status 429?", "title": "Developer API"}
+  ],
+  "unsupported_questions": ["Who discovered quantum entanglement?", "How do I bake sourdough?", "What causes lunar eclipses?"]
+}
